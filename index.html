@@ -1,0 +1,2382 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=5"
+    />
+    <title>Luxury Fur Collar & Cuffs Coat - 80% OFF Limited Time</title>
+    <meta
+      name="description"
+      content="Premium cashmere-wool coat with genuine fox fur collar. Free shipping + 30-day returns. Only $59 (was $295)."
+    />
+    <meta
+      name="keywords"
+      content="fur collar coat, cashmere coat, winter coat, luxury coat, women's coat"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://fur-coat-luxe.netlify.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="product" />
+    <meta
+      property="og:title"
+      content="Luxury Fur Collar & Cuffs Coat - 80% OFF"
+    />
+    <meta
+      property="og:description"
+      content="Premium cashmere-wool blend with genuine fox fur. Only $59 (was $295). Free shipping."
+    />
+    <meta
+      property="og:image"
+      content="https://fur-coat-luxe.netlify.app/images/product/product-01.jpg"
+    />
+    <meta property="og:url" content="https://fur-coat-luxe.netlify.app/" />
+
+    <!-- Performance Meta -->
+    <meta name="theme-color" content="#F5F0E8" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary: #8b4513;
+        --primary-light: #a0522d;
+        --primary-dark: #6b3a11;
+        --primary-darker: #4a2809;
+        --primary-darkest: #2d1905;
+        --primary-rgb: 139, 69, 19;
+        --accent: #d4af37;
+        --accent-rgb: 212, 175, 55;
+        --cream: #f5f0e8;
+        --cream-dark: #e8dfd0;
+        --cream-darker: #d4c9b8;
+        --cream-darkest: #b5a798;
+        --bg: #fffefb;
+        --text: #1a1512;
+        --text-light: #5c524a;
+        --text-lighter: #8a8178;
+        --border: #e8e4de;
+        --success: #28a745;
+        --danger: #dc3545;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: "Montserrat", sans-serif;
+        color: var(--text);
+        line-height: 1.6;
+        background: var(--bg);
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Cormorant Garamond", serif;
+      }
+
+      /* Announcement Bar */
+      .announcement {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-dark) 100%
+        );
+        color: #fff;
+        text-align: center;
+        padding: 14px 20px;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+
+      /* Container */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* Hero Grid */
+      .product-hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        padding: 40px 20px;
+        align-items: start;
+      }
+
+      /* Gallery */
+      .gallery {
+        position: sticky;
+        top: 20px;
+      }
+      .main-img {
+        width: 100%;
+        border-radius: 16px;
+        aspect-ratio: 3/4;
+        object-fit: cover;
+        box-shadow: 0 8px 32px rgba(var(--primary-rgb), 0.15);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .main-img:hover {
+        transform: scale(1.02);
+        box-shadow: 0 16px 48px rgba(var(--primary-rgb), 0.25);
+      }
+      #thumbs {
+        display: flex;
+        gap: 12px;
+        margin-top: 16px;
+        overflow-x: auto;
+        padding: 8px 0;
+        -webkit-overflow-scrolling: touch;
+      }
+      #thumbs img {
+        width: 80px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+        cursor: pointer;
+        border: 3px solid transparent;
+        opacity: 0.7;
+        transition: all 0.3s ease;
+      }
+      #thumbs img:hover,
+      #thumbs img.active {
+        border-color: var(--primary);
+        opacity: 1;
+        transform: scale(1.05);
+      }
+
+      /* Product Info */
+      .product-info {
+        position: relative;
+      }
+
+      /* Added Today Badge */
+      .added-today-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        background: linear-gradient(135deg, var(--success) 0%, #20c997 100%);
+        color: #fff;
+        padding: 12px 20px;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 13px;
+        box-shadow: 0 4px 16px rgba(40, 167, 69, 0.35);
+        margin-bottom: 20px;
+        animation: pulse-badge 2s infinite;
+      }
+      @keyframes pulse-badge {
+        0%,
+        100% {
+          box-shadow: 0 4px 16px rgba(40, 167, 69, 0.35);
+        }
+        50% {
+          box-shadow: 0 8px 28px rgba(40, 167, 69, 0.5);
+        }
+      }
+
+      .product-info h1 {
+        font-size: clamp(32px, 5vw, 48px);
+        font-weight: 700;
+        margin-bottom: 12px;
+        line-height: 1.1;
+        color: var(--text);
+      }
+      .tagline {
+        color: var(--text-light);
+        font-size: clamp(16px, 2.5vw, 19px);
+        margin-bottom: 24px;
+        line-height: 1.6;
+      }
+
+      /* Price Box */
+      .price-box {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 16px;
+        padding: 16px 20px;
+        background: linear-gradient(
+          135deg,
+          var(--cream) 0%,
+          var(--cream-dark) 100%
+        );
+        border-radius: 12px;
+        border: 2px solid var(--primary);
+      }
+      .price {
+        font-size: clamp(32px, 6vw, 42px);
+        font-weight: 800;
+        color: var(--primary);
+      }
+      .old-price {
+        font-size: clamp(18px, 3vw, 22px);
+        color: var(--text-lighter);
+        text-decoration: line-through;
+      }
+      .badge {
+        background: var(--danger);
+        color: #fff;
+        padding: 6px 14px;
+        border-radius: 20px;
+        font-size: 13px;
+        font-weight: 700;
+        animation: pulse-badge 2s infinite;
+      }
+
+      /* Live Viewers */
+      .live-viewers {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(40, 167, 69, 0.1);
+        padding: 12px 18px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        border: 1px solid rgba(40, 167, 69, 0.2);
+      }
+      .pulse-dot {
+        width: 12px;
+        height: 12px;
+        background: var(--success);
+        border-radius: 50%;
+        animation: pulse-dot 2s infinite;
+      }
+      @keyframes pulse-dot {
+        0%,
+        100% {
+          box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+        }
+        50% {
+          box-shadow: 0 0 0 10px rgba(40, 167, 69, 0);
+        }
+      }
+
+      /* Stock Warning */
+      .stock-warning {
+        background: #fff3cd;
+        border-left: 4px solid #ff6b35;
+        padding: 14px 18px;
+        border-radius: 8px;
+        margin-bottom: 16px;
+        color: #856404;
+        font-weight: 700;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .stock-warning svg {
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+      }
+
+      /* Countdown Timer */
+      .countdown-timer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        background: linear-gradient(135deg, var(--danger) 0%, #c82333 100%);
+        color: #fff;
+        padding: 14px 24px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        box-shadow: 0 6px 20px rgba(220, 53, 69, 0.35);
+      }
+      .timer-label {
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      .timer-digits {
+        display: flex;
+        gap: 8px;
+      }
+      .timer-box {
+        background: rgba(0, 0, 0, 0.25);
+        padding: 10px 14px;
+        border-radius: 8px;
+        min-width: 50px;
+        text-align: center;
+        font-family: "Montserrat", monospace;
+        font-size: 22px;
+        font-weight: 700;
+      }
+      .timer-separator {
+        font-size: 22px;
+        font-weight: 700;
+        opacity: 0.7;
+      }
+
+      /* Size Selector */
+      .size-selector {
+        margin-bottom: 24px;
+      }
+      .size-selector label {
+        display: block;
+        font-weight: 700;
+        margin-bottom: 12px;
+        font-size: 15px;
+      }
+      .size-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .size-btn {
+        font-family: "Montserrat", sans-serif;
+        padding: 14px 18px;
+        min-width: 60px;
+        border: 2px solid var(--border);
+        background: #fff;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 15px;
+        transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        position: relative;
+      }
+      .size-btn:not(:disabled):hover {
+        border-color: var(--primary);
+        transform: scale(1.08);
+        box-shadow: 0 6px 20px rgba(var(--primary-rgb), 0.2);
+      }
+      .size-btn.selected {
+        background: var(--primary);
+        color: #fff;
+        border-color: var(--primary);
+        box-shadow: 0 6px 20px rgba(var(--primary-rgb), 0.35);
+        animation: selectPop 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      }
+      @keyframes selectPop {
+        0% {
+          transform: scale(0.9);
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      .size-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        background: #f5f5f5;
+      }
+      .soldout-label {
+        display: block;
+        font-size: 9px;
+        color: var(--danger);
+        font-weight: 700;
+        margin-top: 2px;
+        letter-spacing: 0.5px;
+      }
+
+      /* CTA Buttons */
+      .cta-btn {
+        font-family: "Montserrat", sans-serif;
+        width: 100%;
+        padding: 22px 28px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 14px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 14px;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        min-height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .cta-btn::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.4),
+          transparent
+        );
+        animation: shimmer 3s infinite;
+      }
+      @keyframes shimmer {
+        0% {
+          left: -100%;
+        }
+        50%,
+        100% {
+          left: 100%;
+        }
+      }
+      .cta-primary {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-dark) 50%,
+          var(--primary-darker) 100%
+        );
+        color: #fff;
+        box-shadow:
+          0 6px 24px rgba(var(--primary-rgb), 0.45),
+          inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        border: 3px solid var(--primary-darkest);
+      }
+      .cta-primary:hover {
+        transform: translateY(-4px) scale(1.01);
+        box-shadow:
+          0 16px 40px rgba(var(--primary-rgb), 0.6),
+          0 0 50px rgba(var(--primary-rgb), 0.3);
+      }
+      .cta-primary:active {
+        transform: translateY(0) scale(0.98);
+      }
+      .cta-secondary {
+        background: #fff;
+        color: var(--primary);
+        border: 3px solid var(--primary);
+      }
+      .cta-secondary:hover {
+        background: linear-gradient(
+          135deg,
+          var(--cream) 0%,
+          var(--cream-dark) 100%
+        );
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(var(--primary-rgb), 0.25);
+      }
+      .btn-subtitle {
+        font-size: 12px;
+        font-weight: 600;
+        opacity: 0.9;
+        margin-top: 6px;
+        text-transform: none;
+        letter-spacing: 0;
+      }
+
+      /* Trust Badges */
+      .trust-badges {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin-top: 24px;
+      }
+      .trust-badge {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 16px 12px;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        border: 1px solid var(--border);
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+      .trust-badge:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 24px rgba(var(--primary-rgb), 0.15);
+        border-color: var(--primary);
+      }
+      .trust-badge svg {
+        width: 32px;
+        height: 32px;
+        color: var(--primary);
+      }
+      .trust-badge span {
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--text-light);
+        line-height: 1.3;
+      }
+
+      /* Sections */
+      section {
+        padding: 60px 20px;
+      }
+      section h2 {
+        font-size: clamp(28px, 5vw, 40px);
+        text-align: center;
+        margin-bottom: 40px;
+        color: var(--text);
+      }
+
+      /* Feature Cards */
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 24px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .feature-card {
+        background: #fff;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        border: 1px solid var(--border);
+        text-align: center;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .feature-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 40px rgba(var(--primary-rgb), 0.15);
+        border-color: var(--primary);
+      }
+      .feature-card svg {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 16px;
+        color: var(--primary);
+      }
+      .feature-card h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: var(--text);
+      }
+      .feature-card p {
+        font-size: 14px;
+        color: var(--text-light);
+        line-height: 1.6;
+      }
+
+      /* Accordion */
+      details {
+        background: #fff;
+        border-radius: 12px;
+        margin-bottom: 12px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        border: 1px solid var(--border);
+        overflow: hidden;
+      }
+      details summary {
+        padding: 20px 24px;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background 0.2s;
+      }
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+      details summary::after {
+        content: "+";
+        font-size: 24px;
+        font-weight: 300;
+        color: var(--primary);
+        transition: transform 0.3s;
+      }
+      details[open] summary::after {
+        transform: rotate(45deg);
+      }
+      details[open] summary {
+        background: var(--cream);
+      }
+      details .accordion-content {
+        padding: 0 24px 20px;
+        color: var(--text-light);
+        line-height: 1.8;
+      }
+
+      /* FAQ */
+      .faq-section {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+      .faq-item {
+        margin-bottom: 0;
+      }
+      .faq-item summary {
+        padding: 18px 24px;
+        font-size: 15px;
+      }
+      .faq-item p {
+        padding: 0 24px 20px;
+        font-size: 14px;
+      }
+
+      /* Testimonials */
+      .testimonials-section {
+        background: linear-gradient(180deg, #fff 0%, var(--cream) 100%);
+      }
+      .testimonial-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 24px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .testimonial-card {
+        background: #fff;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        border: 1px solid var(--border);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .testimonial-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 36px rgba(var(--primary-rgb), 0.18);
+        border-color: var(--primary);
+      }
+      .testimonial-text {
+        font-size: 14px;
+        line-height: 1.7;
+        color: var(--text);
+        margin-bottom: 16px;
+      }
+      .testimonial-image {
+        width: 100%;
+        border-radius: 12px;
+        margin-bottom: 16px;
+        aspect-ratio: 4/5;
+        object-fit: cover;
+      }
+      .testimonial-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .testimonial-name {
+        font-weight: 700;
+        font-size: 14px;
+        color: var(--text);
+      }
+      .testimonial-platform {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        color: var(--text-light);
+      }
+      .testimonial-platform svg {
+        width: 16px;
+        height: 16px;
+      }
+      .testimonial-stars {
+        color: var(--accent);
+        font-size: 14px;
+        letter-spacing: 1px;
+      }
+
+      /* Featured Reviews Carousel */
+      .featured-carousel {
+        display: flex;
+        gap: 24px;
+        overflow-x: auto;
+        padding: 20px 0;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+      }
+      .featured-card {
+        flex: 0 0 380px;
+        scroll-snap-align: start;
+        background: linear-gradient(135deg, #fff 0%, var(--cream) 100%);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 8px 32px rgba(var(--primary-rgb), 0.12);
+        border: 2px solid var(--primary);
+      }
+
+      /* Worn By Favorites */
+      .worn-by-section {
+        background: var(--cream);
+        text-align: center;
+      }
+      .worn-by-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .worn-by-item img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 16px;
+        border: 4px solid #fff;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      }
+      .worn-by-item h4 {
+        font-size: 18px;
+        margin-bottom: 4px;
+      }
+      .worn-by-item p {
+        font-size: 13px;
+        color: var(--text-light);
+      }
+
+      /* Final CTA */
+      .final-cta {
+        background: linear-gradient(
+          135deg,
+          var(--primary) 0%,
+          var(--primary-darker) 100%
+        );
+        color: #fff;
+        text-align: center;
+        padding: 80px 20px;
+      }
+      .final-cta h2 {
+        color: #fff;
+        margin-bottom: 16px;
+      }
+      .final-cta p {
+        opacity: 0.9;
+        margin-bottom: 32px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .final-cta .cta-btn {
+        max-width: 400px;
+        margin: 0 auto;
+        background: #fff;
+        color: var(--primary);
+      }
+      .final-cta .cta-btn:hover {
+        background: var(--cream);
+        transform: translateY(-4px);
+      }
+
+      /* Footer */
+      .site-footer {
+        background: #1a1a1a;
+        color: #fff;
+        padding: 50px 20px 30px;
+      }
+      .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto 40px;
+      }
+      .footer-section h3 {
+        color: var(--accent);
+        font-size: 16px;
+        margin-bottom: 16px;
+        font-weight: 700;
+      }
+      .footer-section p,
+      .footer-section a {
+        color: #ccc;
+        font-size: 14px;
+        line-height: 1.8;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 8px;
+      }
+      .footer-section a:hover {
+        color: #fff;
+      }
+      .footer-bottom {
+        border-top: 1px solid #333;
+        padding-top: 24px;
+        text-align: center;
+        color: #888;
+        font-size: 13px;
+      }
+
+      /* Order Bump Popup */
+      #orderBumpPopup {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: 10000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      #orderBumpPopup.active {
+        display: flex;
+        opacity: 1;
+      }
+      .popup-content {
+        background: #fff;
+        border-radius: 20px;
+        max-width: 560px;
+        width: 100%;
+        padding: 40px;
+        position: relative;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
+        transform: translateY(40px) scale(0.95);
+        transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+      }
+      #orderBumpPopup.active .popup-content {
+        transform: translateY(0) scale(1);
+      }
+      .popup-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        background: none;
+        border: none;
+        font-size: 36px;
+        cursor: pointer;
+        color: #999;
+        line-height: 1;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: all 0.2s;
+      }
+      .popup-close:hover {
+        background: #f5f5f5;
+        color: #333;
+      }
+      .popup-badge {
+        background: var(--danger);
+        color: #fff;
+        display: inline-block;
+        padding: 8px 18px;
+        border-radius: 24px;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+      }
+      .popup-title {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: var(--text);
+      }
+      .popup-subtitle {
+        color: var(--text-light);
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 24px;
+      }
+      .bundle-grid {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+      .bundle-item {
+        text-align: center;
+        flex: 1;
+      }
+      .bundle-item img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 12px;
+        border: 2px solid var(--border);
+        margin-bottom: 8px;
+      }
+      .bundle-item-name {
+        font-size: 12px;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 2px;
+      }
+      .bundle-item-why {
+        font-size: 10px;
+        color: var(--text-light);
+      }
+      .bundle-value {
+        background: var(--cream);
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .bundle-value-text {
+        font-size: 13px;
+        color: var(--text-light);
+        margin-bottom: 10px;
+      }
+      .bundle-price {
+        background: #fff;
+        padding: 16px;
+        border-radius: 10px;
+        border: 2px dashed var(--success);
+      }
+      .bundle-price span {
+        font-size: 14px;
+        color: var(--text-light);
+      }
+      .bundle-price strong {
+        font-size: 36px;
+        font-weight: 800;
+        color: var(--success);
+        margin-left: 10px;
+      }
+      .popup-accept {
+        width: 100%;
+        background: linear-gradient(135deg, var(--success) 0%, #20c997 100%);
+        color: #fff;
+        border: none;
+        padding: 20px;
+        border-radius: 14px;
+        font-size: 17px;
+        font-weight: 700;
+        cursor: pointer;
+        margin-bottom: 10px;
+        box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+        transition: all 0.3s;
+      }
+      .popup-accept:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 12px 32px rgba(40, 167, 69, 0.5);
+      }
+      .popup-decline {
+        width: 100%;
+        background: transparent;
+        color: #999;
+        border: none;
+        padding: 12px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .popup-decline:hover {
+        color: #666;
+      }
+
+      /* Sold Out Notification */
+      .soldout-notification {
+        position: fixed;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-150px);
+        background: var(--danger);
+        color: #fff;
+        padding: 18px 28px;
+        border-radius: 14px;
+        font-weight: 700;
+        font-size: 15px;
+        box-shadow: 0 12px 36px rgba(220, 53, 69, 0.5);
+        z-index: 9999;
+        opacity: 0;
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .soldout-notification.show {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+      }
+
+      /* Exit Transition */
+      .exit-transition {
+        position: fixed;
+        inset: 0;
+        background: #fff;
+        z-index: 999999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+        transition:
+          opacity 0.3s ease,
+          visibility 0.3s ease;
+      }
+      .exit-transition.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .exit-transition-content {
+        text-align: center;
+        transform: translateY(20px);
+        opacity: 0;
+        transition:
+          transform 0.4s ease 0.1s,
+          opacity 0.4s ease 0.1s;
+      }
+      .exit-transition.active .exit-transition-content {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      .exit-spinner {
+        width: 48px;
+        height: 48px;
+        border: 4px solid var(--cream-dark);
+        border-top-color: var(--primary);
+        border-radius: 50%;
+        margin: 0 auto 24px;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      .exit-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--text);
+        margin-bottom: 8px;
+      }
+      .exit-subtitle {
+        font-size: 14px;
+        color: var(--text-light);
+      }
+
+      /* Sticky Mobile CTA */
+      .sticky-mobile {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        padding: 14px 20px;
+        box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.15);
+        z-index: 1000;
+        display: none;
+        border-top: 3px solid var(--primary);
+      }
+      .sticky-row {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .sticky-price-box {
+        text-align: left;
+      }
+      .sticky-price {
+        font-size: 24px;
+        font-weight: 800;
+        color: var(--primary);
+      }
+      .sticky-old {
+        font-size: 14px;
+        color: var(--text-lighter);
+        text-decoration: line-through;
+        margin-left: 8px;
+      }
+      .sticky-cta {
+        flex: 1;
+        background: var(--primary);
+        color: #fff;
+        border: none;
+        padding: 16px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      /* Scroll Reveal */
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition:
+          opacity 0.7s ease,
+          transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .product-hero {
+          grid-template-columns: 1fr;
+          gap: 24px;
+          padding: 20px 16px;
+        }
+        .gallery {
+          position: static;
+        }
+        .main-img {
+          border-radius: 12px;
+        }
+        .product-info h1 {
+          font-size: 28px;
+        }
+        .trust-badges {
+          grid-template-columns: repeat(3, 1fr);
+          gap: 8px;
+        }
+        .trust-badge {
+          padding: 12px 8px;
+        }
+        .trust-badge svg {
+          width: 24px;
+          height: 24px;
+        }
+        .trust-badge span {
+          font-size: 9px;
+        }
+        .testimonial-grid {
+          grid-template-columns: 1fr;
+        }
+        .worn-by-grid {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+        .worn-by-item img {
+          width: 100px;
+          height: 100px;
+        }
+        .sticky-mobile.visible {
+          display: block;
+        }
+        body {
+          padding-bottom: 90px;
+        }
+        .countdown-timer {
+          flex-direction: column;
+          gap: 8px;
+          padding: 12px 16px;
+        }
+        .timer-digits {
+          gap: 6px;
+        }
+        .timer-box {
+          min-width: 42px;
+          font-size: 18px;
+          padding: 8px 10px;
+        }
+        .bundle-grid {
+          flex-wrap: wrap;
+        }
+        .bundle-item {
+          flex: 0 0 30%;
+        }
+        .bundle-item img {
+          width: 65px;
+          height: 65px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Announcement Bar -->
+    <div class="announcement">
+      FREE EXPRESS SHIPPING ON ALL ORDERS | 30-DAY MONEY BACK GUARANTEE
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="container">
+        <!-- SECTION 1: Hero -->
+        <div class="product-hero">
+          <!-- Gallery -->
+          <div class="gallery reveal">
+            <img
+              src="./images/product/product-01.jpg"
+              class="main-img"
+              id="heroImage"
+              alt="Luxury Fur Collar & Cuffs Coat"
+            />
+            <div id="thumbs"></div>
+          </div>
+
+          <!-- Product Info -->
+          <div class="product-info">
+            <!-- SECTION 2: Scarcity -->
+            <div class="added-today-badge reveal">
+              <svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+              324 added to cart today
+            </div>
+
+            <h1 class="reveal">Luxury Fur Collar & Cuffs Coat</h1>
+            <p class="tagline reveal">
+              Timeless elegance meets everyday warmth. Premium cashmere-wool
+              blend with genuine detachable fox fur trim.
+            </p>
+
+            <!-- Price Box -->
+            <div class="price-box reveal">
+              <span class="price">$59</span>
+              <span class="old-price">$295</span>
+              <span class="badge">80% OFF</span>
+            </div>
+
+            <!-- Live Viewers -->
+            <div class="live-viewers reveal">
+              <span class="pulse-dot"></span>
+              <span
+                ><strong id="viewerCount">47</strong> people viewing this right
+                now</span
+              >
+            </div>
+
+            <!-- Stock Warning -->
+            <div class="stock-warning reveal">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <line x1="12" y1="8" x2="12" y2="12" />
+                <line x1="12" y1="16" x2="12.01" y2="16" />
+              </svg>
+              Only <span id="stockCount">23</span> left in stock!
+            </div>
+
+            <!-- Countdown Timer -->
+            <div class="countdown-timer reveal">
+              <span class="timer-label">SALE ENDS IN:</span>
+              <div class="timer-digits">
+                <span class="timer-box" id="hours">02</span>
+                <span class="timer-separator">:</span>
+                <span class="timer-box" id="minutes">47</span>
+                <span class="timer-separator">:</span>
+                <span class="timer-box" id="seconds">33</span>
+              </div>
+            </div>
+
+            <!-- SECTION 3: Size Selector -->
+            <div class="size-selector reveal">
+              <label>Select Size:</label>
+              <div class="size-buttons">
+                <button class="size-btn" onclick="selectSize(this, 'XS')">
+                  XS
+                </button>
+                <button class="size-btn" onclick="selectSize(this, 'S')">
+                  S
+                </button>
+                <button
+                  class="size-btn selected"
+                  onclick="selectSize(this, 'M')"
+                >
+                  M
+                </button>
+                <button class="size-btn" onclick="selectSize(this, 'L')">
+                  L
+                </button>
+                <button class="size-btn" disabled>
+                  XL<span class="soldout-label">Sold Out</span>
+                </button>
+                <button class="size-btn" disabled>
+                  XXL<span class="soldout-label">Sold Out</span>
+                </button>
+                <button class="size-btn" disabled>
+                  2XL<span class="soldout-label">Sold Out</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- SECTION 4: CTA Buttons -->
+            <button
+              class="cta-btn cta-primary reveal"
+              onclick="handleAddToCart('order')"
+            >
+              ORDER TODAY — $59
+              <span class="btn-subtitle"
+                >Free Express Shipping • Arrives in 3-5 days</span
+              >
+            </button>
+            <button
+              class="cta-btn cta-secondary reveal"
+              onclick="handleAddToCart('preorder')"
+            >
+              PRE-ORDER NOW — $19
+              <span class="btn-subtitle"
+                >Reserve yours • Pay rest on delivery</span
+              >
+            </button>
+
+            <!-- SECTION 5: Trust Badges -->
+            <div class="trust-badges reveal">
+              <div class="trust-badge">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  <path d="M9 12l2 2 4-4" />
+                </svg>
+                <span>Money-Back Guarantee</span>
+              </div>
+              <div class="trust-badge">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="1" y="3" width="15" height="13" rx="2" />
+                  <path d="M16 8h4l3 3v5h-7V8z" />
+                  <circle cx="5.5" cy="18.5" r="2.5" />
+                  <circle cx="18.5" cy="18.5" r="2.5" />
+                </svg>
+                <span>Free Shipping</span>
+              </div>
+              <div class="trust-badge">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="3" y="11" width="18" height="11" rx="2" />
+                  <path d="M7 11V7a5 5 0 0110 0v4" />
+                </svg>
+                <span>Secure Checkout</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 6: Product Features -->
+      <section
+        style="
+          background: linear-gradient(180deg, var(--bg) 0%, var(--cream) 100%);
+        "
+      >
+        <div class="container">
+          <h2 class="reveal">Why You'll Love It</h2>
+          <div class="features-grid">
+            <div class="feature-card reveal">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M24 4c0 0-16 12-16 28s16 12 16 12 16 4 16-12S24 4 24 4z"
+                />
+                <line x1="24" y1="4" x2="24" y2="44" />
+              </svg>
+              <h3>Genuine Fox Fur</h3>
+              <p>Premium quality fur collar that's incredibly soft and warm</p>
+            </div>
+            <div class="feature-card reveal">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="24" cy="24" r="16" />
+                <path
+                  d="M24 8c0 8-8 12-8 16s8 8 8 16M24 8c0 8 8 12 8 16s-8 8-8 16"
+                />
+              </svg>
+              <h3>Cashmere Blend</h3>
+              <p>10% cashmere, 90% wool for ultimate softness and warmth</p>
+            </div>
+            <div class="feature-card reveal">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="12" y="4" width="24" height="40" rx="2" />
+                <line x1="12" y1="24" x2="36" y2="24" stroke-dasharray="4,4" />
+                <circle cx="24" cy="24" r="4" />
+              </svg>
+              <h3>Detachable Cuffs</h3>
+              <p>Versatile styling with removable fur cuffs</p>
+            </div>
+            <div class="feature-card reveal">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="16" y="4" width="16" height="40" rx="2" />
+                <circle cx="24" cy="12" r="3" />
+                <circle cx="24" cy="24" r="3" />
+                <circle cx="24" cy="36" r="3" />
+              </svg>
+              <h3>Hidden Buttons</h3>
+              <p>Clean silhouette with concealed button fastening</p>
+            </div>
+            <div class="feature-card reveal">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 4h24v40H12z" />
+                <path d="M16 20h16v16c0 2-2 4-4 4H20c-2 0-4-2-4-4V20z" />
+              </svg>
+              <h3>Side Pockets</h3>
+              <p>Functional pockets to keep your hands warm</p>
+            </div>
+            <div class="feature-card reveal">
+              <svg
+                viewBox="0 0 48 48"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="20" y="4" width="8" height="40" />
+                <line x1="12" y1="8" x2="20" y2="8" />
+                <line x1="16" y1="24" x2="20" y2="24" />
+                <line x1="12" y1="40" x2="20" y2="40" />
+                <text x="32" y="28" font-size="8" fill="currentColor">
+                  70cm
+                </text>
+              </svg>
+              <h3>Perfect Length</h3>
+              <p>70cm body length that flatters every figure</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: Product Description -->
+      <section>
+        <div class="container" style="max-width: 800px">
+          <details class="reveal" open>
+            <summary>About This Coat</summary>
+            <div class="accordion-content">
+              <p>
+                Step into timeless elegance with our Luxury Fur Collar & Cuffs
+                Coat. Crafted from a premium 10% cashmere, 90% wool blend, this
+                coat delivers the perfect balance of warmth and sophistication.
+                The genuine fox fur collar and detachable cuffs add a touch of
+                old-money glamour that turns heads at every winter event.
+              </p>
+              <p style="margin-top: 16px">
+                Whether you're headed to a holiday party, romantic dinner, or
+                chic brunch, this coat elevates any outfit instantly. The hidden
+                button fastening creates a sleek, uninterrupted silhouette,
+                while the 70cm body length flatters every figure. Two side
+                pockets keep your essentials close and your hands warm.
+              </p>
+              <p style="margin-top: 16px">
+                This isn't just a coat — it's a statement piece. The kind that
+                makes people ask "where did you get that?" Join the 2,000+ women
+                who've already discovered their new winter essential.
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- SECTION 8: FAQ Section -->
+      <section style="background: var(--cream)">
+        <div class="container">
+          <h2 class="reveal">Frequently Asked Questions</h2>
+          <div class="faq-section">
+            <details class="faq-item reveal">
+              <summary>What size should I order?</summary>
+              <p>
+                We recommend ordering your regular size. This coat has a
+                slightly relaxed fit perfect for layering over sweaters and
+                dresses. If you prefer a more fitted look, size down. Our size
+                guide shows exact measurements for each size.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>How long does shipping take?</summary>
+              <p>
+                We offer FREE express shipping on all orders. Standard delivery
+                takes 7-12 business days. Rush shipping (3-5 days) is available
+                at checkout for an additional fee. You'll receive tracking
+                information within 24 hours.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>What is your return policy?</summary>
+              <p>
+                We offer a 30-day money-back guarantee. If you're not completely
+                in love with your coat, return it unworn with tags attached for
+                a full refund. No questions asked.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>How do I care for the fur trim?</summary>
+              <p>
+                The fur collar and cuffs are detachable for easy care. Spot
+                clean the fur with a damp cloth. The coat body can be dry
+                cleaned. Store in a breathable garment bag away from direct
+                sunlight.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Is the fur real or faux?</summary>
+              <p>
+                The collar features 100% genuine fox fur, ethically sourced and
+                certified. The detachable cuffs also use genuine fur. This
+                ensures authentic luxury quality and warmth.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>What material is the coat made of?</summary>
+              <p>
+                The coat body is crafted from a premium blend of 10% cashmere
+                and 90% wool. This combination provides exceptional warmth,
+                softness, and durability. The lining is 100% polyester for
+                smooth wear.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>Is this coat warm enough for real winter?</summary>
+              <p>
+                Absolutely! The cashmere-wool blend provides excellent
+                insulation, and the fur collar adds extra warmth around your
+                neck. Customers in Chicago, NYC, and Canada confirm it handles
+                temperatures well below freezing.
+              </p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>
+                What's the difference between Order Today and Pre-Order?
+              </summary>
+              <p>
+                <strong>Order Today ($59):</strong> Full payment now, ships
+                within 24-48 hours.<br /><strong>Pre-Order ($19):</strong>
+                Reserve with a deposit, pay the remaining $40 when it ships.
+                Perfect to lock in the sale price.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 9: Featured Reviews Carousel -->
+      <section>
+        <div class="container">
+          <h2 class="reveal">What Our Customers Say</h2>
+          <div class="featured-carousel reveal" id="featuredReviews"></div>
+        </div>
+      </section>
+
+      <!-- SECTION 10: Testimonials Grid -->
+      <section class="testimonials-section">
+        <div class="container">
+          <h2 class="reveal">Real Reviews from Real Customers</h2>
+          <div class="testimonial-grid" id="testimonialsGrid"></div>
+        </div>
+      </section>
+
+      <!-- SECTION 11: Worn By Favorites -->
+      <section class="worn-by-section">
+        <div class="container">
+          <h2 class="reveal">Worn By Your Favorites</h2>
+          <p
+            class="reveal"
+            style="color: var(--text-light); margin-bottom: 40px"
+          >
+            Style icons who love the fur collar look
+          </p>
+          <div class="worn-by-grid">
+            <div class="worn-by-item reveal">
+              <img
+                src="./images/worn-by-favorites/alix-earle.webp"
+                alt="Alix Earle"
+              />
+              <h4>Alix Earle</h4>
+              <p>TikTok Creator</p>
+            </div>
+            <div class="worn-by-item reveal">
+              <img
+                src="./images/worn-by-favorites/monet-mcmichael.webp"
+                alt="Monet McMichael"
+              />
+              <h4>Monet McMichael</h4>
+              <p>Beauty Influencer</p>
+            </div>
+            <div class="worn-by-item reveal">
+              <img
+                src="./images/worn-by-favorites/alex-cooper.webp"
+                alt="Alex Cooper"
+              />
+              <h4>Alex Cooper</h4>
+              <p>Podcast Host</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 12: Final CTA -->
+      <section class="final-cta">
+        <h2 class="reveal">Don't Miss Out</h2>
+        <p class="reveal">
+          Only <span id="finalStock">23</span> coats left at this price. Once
+          they're gone, they're gone.
+        </p>
+        <button class="cta-btn reveal" onclick="handleAddToCart('order')">
+          GET YOURS NOW — $59
+        </button>
+      </section>
+
+      <!-- SECTION 13: Footer -->
+      <footer class="site-footer">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>
+              We bring luxury fashion at accessible prices. Every piece is
+              carefully curated for quality and style.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Customer Service</h3>
+            <a href="#">Shipping Information</a>
+            <a href="#">Returns & Exchanges</a>
+            <a href="#">Size Guide</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="footer-section">
+            <h3>Legal</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Refund Policy</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2024 Luxe Winter Coats. All rights reserved.
+        </div>
+      </footer>
+    </div>
+
+    <!-- Order Bump Popup -->
+    <div id="orderBumpPopup" role="dialog" aria-modal="true">
+      <div class="popup-content">
+        <button
+          class="popup-close"
+          onclick="closeOrderBumpPopup()"
+          aria-label="Close"
+        >
+          &times;
+        </button>
+        <div style="text-align: center">
+          <div class="popup-badge">ONE TIME OFFER</div>
+          <h2 class="popup-title">girl don't show up half ready</h2>
+          <p class="popup-subtitle">
+            you're about to have THE coat. but the moment isn't complete without
+            these.
+          </p>
+        </div>
+        <div class="bundle-grid">
+          <div class="bundle-item">
+            <img src="./images/order-bump/item1.jpg" alt="Care Kit" />
+            <div class="bundle-item-name">care kit</div>
+            <div class="bundle-item-why">keeps it pristine</div>
+          </div>
+          <div class="bundle-item">
+            <img src="./images/order-bump/item2.jpg" alt="Fur Scarf" />
+            <div class="bundle-item-name">fur scarf</div>
+            <div class="bundle-item-why">double the warmth</div>
+          </div>
+          <div class="bundle-item">
+            <img src="./images/order-bump/item3.jpg" alt="Gold Earrings" />
+            <div class="bundle-item-name">gold drops</div>
+            <div class="bundle-item-why">old money touch</div>
+          </div>
+        </div>
+        <div class="bundle-value">
+          <div class="bundle-value-text">
+            normally $135 if you bought these separate
+          </div>
+          <div class="bundle-price">
+            <span>add all 3 for just</span>
+            <strong>$10</strong>
+          </div>
+        </div>
+        <button class="popup-accept" onclick="acceptOrderBump()">
+          yes i want the complete look — $10
+        </button>
+        <button class="popup-decline" onclick="declineOrderBump()">
+          no thanks, i'll figure it out myself
+        </button>
+      </div>
+    </div>
+
+    <!-- Sold Out Notification -->
+    <div class="soldout-notification" id="soldoutNotification">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <circle cx="12" cy="12" r="10" />
+        <line x1="12" y1="8" x2="12" y2="12" />
+        <line x1="12" y1="16" x2="12.01" y2="16" />
+      </svg>
+      <span>XS just sold out!</span>
+    </div>
+
+    <!-- Exit Transition -->
+    <div id="exitTransition" class="exit-transition">
+      <div class="exit-transition-content">
+        <div class="exit-spinner"></div>
+        <p class="exit-title">Connecting to secure checkout...</p>
+        <p class="exit-subtitle">Please wait, do not close this page</p>
+      </div>
+    </div>
+
+    <!-- Sticky Mobile CTA -->
+    <div class="sticky-mobile" id="stickyCta">
+      <div class="sticky-row">
+        <div class="sticky-price-box">
+          <span class="sticky-price">$59</span>
+          <span class="sticky-old">$295</span>
+        </div>
+        <button class="sticky-cta" onclick="handleAddToCart('order')">
+          ORDER NOW
+        </button>
+      </div>
+    </div>
+
+    <script>
+      // Product Images
+      const productImages = [
+        "product-01.jpg",
+        "product-02.jpg",
+        "product-03.jpg",
+        "product-04.jpg",
+        "product-05.jpg",
+      ];
+
+      // Testimonial Images (35 matching files)
+      const testimonialImages = [
+        "photo_001 (1).jpg",
+        "photo_001 (2).jpg",
+        "photo_001 (3).jpg",
+        "photo_001 (4).jpg",
+        "photo_002 (2).jpg",
+        "photo_002 (3).jpg",
+        "photo_002 (4).jpg",
+        "photo_002 (5).jpg",
+        "photo_003 (1).jpg",
+        "photo_003 (2).jpg",
+        "photo_003 (3).jpg",
+        "photo_004 (1).jpg",
+        "photo_004 (3).jpg",
+        "photo_004 (4).jpg",
+        "photo_005 (1).jpg",
+        "photo_005 (2).jpg",
+        "photo_005 (3).jpg",
+        "photo_005 (4).jpg",
+        "photo_005 (5).jpg",
+        "photo_006 (1).jpg",
+        "photo_006 (2).jpg",
+        "photo_006 (3).jpg",
+        "photo_007 (1).jpg",
+        "photo_007 (3).jpg",
+        "photo_007 (4).jpg",
+        "photo_008 (1).jpg",
+        "photo_008 (3).jpg",
+        "photo_008 (4).jpg",
+        "photo_009 (1).jpg",
+        "photo_009 (2).jpg",
+        "photo_010 (1).jpg",
+        "photo_010 (2).jpg",
+        "photo_010 (3).jpg",
+        "photo_010 (4).jpg",
+        "photo_011.jpg",
+      ];
+
+      // 35 Product-Specific Testimonials
+      const testimonials = [
+        {
+          name: "Emma L.",
+          platform: "instagram",
+          rating: 5,
+          text: "I was SO nervous ordering a coat online - sizing is always a gamble for my curves. But I trusted the size guide and went with a medium. Now I'm OBSESSED! It fits like it was made for my body. The fur collar is buttery soft 🤍",
+          img: 0,
+        },
+        {
+          name: "Sophia R.",
+          platform: "tiktok",
+          rating: 5,
+          text: "okay so i almost didn't buy this bc $59 for a fur coat?? seemed too good. my mom literally asked if i stole it from a boutique bc it looks SO expensive. the cashmere blend is everything 🔥",
+          img: 1,
+        },
+        {
+          name: "Madison K.",
+          platform: "facebook",
+          rating: 5,
+          text: "I'll be honest - I was worried about the fur looking cheap. But when I opened the box my jaw DROPPED. The fur is so fluffy and realistic, the coat has real weight to it. Wore it to my boyfriend's company party and got stopped 6 times!",
+          img: 2,
+        },
+        {
+          name: "Olivia T.",
+          platform: "google",
+          rating: 5,
+          text: "Coming from someone who's spent $$$ on designer coats - this holds its own. The cashmere-wool blend is soft but structured, the fur collar keeps my neck warm without feeling bulky. Chef's kiss 💋",
+          img: 3,
+        },
+        {
+          name: "Ava M.",
+          platform: "trustpilot",
+          rating: 5,
+          text: "I live in Chicago - if a coat can't handle real winter, it's useless. This coat is actually WARM. The cashmere blend traps heat perfectly and the fur collar is like wearing a cloud. Plus it looks expensive AF.",
+          img: 4,
+        },
+        {
+          name: "Isabella C.",
+          platform: "tiktok",
+          rating: 5,
+          text: "the detachable cuffs are genius!! i can switch up the look depending on my mood. wore it to dinner last night and everyone thought i got it from a high-end boutique 💅",
+          img: 5,
+        },
+        {
+          name: "Mia W.",
+          platform: "instagram",
+          rating: 5,
+          text: "I'm 5'2 and usually drown in coats but the 70cm length hits just right on my frame. Finally a coat that's cute AND proportional! The cream color is so elegant 🤍",
+          img: 6,
+        },
+        {
+          name: "Charlotte P.",
+          platform: "facebook",
+          rating: 5,
+          text: "Plus size queen here - got an L and it's not tight anywhere. the hidden buttons are SO flattering on curves. definitely ordering another color!",
+          img: 7,
+        },
+        {
+          name: "Amelia H.",
+          platform: "google",
+          rating: 5,
+          text: "The fur is SO soft i keep petting it like a cat lol my roommate is jealous. after 3 washes still looks brand new. investing in the care kit was smart",
+          img: 8,
+        },
+        {
+          name: "Harper L.",
+          platform: "tiktok",
+          rating: 5,
+          text: "wore this in NYC during the polar vortex. stayed warm the entire time. the fur collar is like a built-in scarf. game changer for cold mornings 🥶➡️🔥",
+          img: 9,
+        },
+        {
+          name: "Evelyn S.",
+          platform: "instagram",
+          rating: 5,
+          text: "posted a pic and got 847 likes. my most liked post ever!! random girl stopped me at target to ask where i got it. influencer era unlocked ✨",
+          img: 10,
+        },
+        {
+          name: "Abigail J.",
+          platform: "facebook",
+          rating: 4,
+          text: "Great coat! Only giving 4 stars because shipping took a bit longer than expected but the quality more than makes up for it. The fur is gorgeous!",
+          img: 11,
+        },
+        {
+          name: "Emily D.",
+          platform: "tiktok",
+          rating: 5,
+          text: "this coat screams old money aesthetic. wore it to brunch and felt like i belonged in aspen. the cream color is chef's kiss with literally everything",
+          img: 12,
+        },
+        {
+          name: "Elizabeth B.",
+          platform: "google",
+          rating: 5,
+          text: "Finally a coat that's cute AND warm. why did i wait so long?? the cashmere blend feels so luxurious against my skin",
+          img: 13,
+        },
+        {
+          name: "Sofia N.",
+          platform: "instagram",
+          rating: 5,
+          text: "my ex's new gf asked about my coat. that's when i knew i won 💅 the quality is unmatched for the price",
+          img: 14,
+        },
+        {
+          name: "Avery M.",
+          platform: "trustpilot",
+          rating: 5,
+          text: "Went between S and M based on the guide, sized up - perfect decision. Room for sweaters underneath and still looks chic!",
+          img: 15,
+        },
+        {
+          name: "Ella K.",
+          platform: "tiktok",
+          rating: 5,
+          text: "thought cashmere blend meant cheap but this feels like a $500 coat no cap. my friends can't believe the price 🤯",
+          img: 16,
+        },
+        {
+          name: "Scarlett R.",
+          platform: "facebook",
+          rating: 5,
+          text: "The packaging was also beautiful - felt like a luxury unboxing. The coat itself exceeded my expectations. So elegant!",
+          img: 17,
+        },
+        {
+          name: "Grace W.",
+          platform: "instagram",
+          rating: 5,
+          text: "got so many compliments at the holiday party. the detachable cuffs are genius - took them off for indoor events 💕",
+          img: 18,
+        },
+        {
+          name: "Chloe T.",
+          platform: "google",
+          rating: 5,
+          text: "wore this to my boyfriend's family christmas dinner. his mom asked if i was a model. best $59 i've ever spent!",
+          img: 19,
+        },
+        {
+          name: "Zoey H.",
+          platform: "tiktok",
+          rating: 5,
+          text: "the hidden buttons give such a clean silhouette. looks way more expensive than it is. already planning 10 outfits around it",
+          img: 20,
+        },
+        {
+          name: "Lily P.",
+          platform: "instagram",
+          rating: 5,
+          text: "i have sensitive skin and this coat is SO soft. no itching, no irritation. the lining is smooth too 🙌",
+          img: 21,
+        },
+        {
+          name: "Hannah J.",
+          platform: "facebook",
+          rating: 5,
+          text: "Perfect for date nights! The cream color with the gold fur trim is giving rich auntie vibes and i'm here for it",
+          img: 22,
+        },
+        {
+          name: "Nora B.",
+          platform: "tiktok",
+          rating: 5,
+          text: "sized down based on reviews and it's chef's kiss. the fitted silhouette is so flattering. obsessed doesn't even cover it",
+          img: 23,
+        },
+        {
+          name: "Riley S.",
+          platform: "google",
+          rating: 5,
+          text: "Shipping was fast and tracking was accurate. The coat looks exactly like the photos - no surprises, just quality!",
+          img: 24,
+        },
+        {
+          name: "Aria L.",
+          platform: "instagram",
+          rating: 5,
+          text: "wore it to a wedding and got more compliments than the bride (oops 😅). the fur collar photographs beautifully",
+          img: 25,
+        },
+        {
+          name: "Luna M.",
+          platform: "trustpilot",
+          rating: 5,
+          text: "I've bought from similar sites before and been disappointed. This is the real deal. Quality is incredible for the price.",
+          img: 26,
+        },
+        {
+          name: "Stella K.",
+          platform: "tiktok",
+          rating: 5,
+          text: "this coat made me realize i've been settling for basic coats my whole life. never going back. main character energy only",
+          img: 27,
+        },
+        {
+          name: "Aurora D.",
+          platform: "facebook",
+          rating: 5,
+          text: "My daughter borrowed it and now she wants her own! Placing a second order today. The quality speaks for itself.",
+          img: 28,
+        },
+        {
+          name: "Hazel R.",
+          platform: "instagram",
+          rating: 5,
+          text: "the cream color doesn't stain easily like i feared. had a coffee incident and it wiped right off. crisis averted ☕️",
+          img: 29,
+        },
+        {
+          name: "Violet W.",
+          platform: "google",
+          rating: 5,
+          text: "Great for professional settings too! Wore it to a work event and looked polished without being boring",
+          img: 30,
+        },
+        {
+          name: "Penelope T.",
+          platform: "tiktok",
+          rating: 5,
+          text: "my sister tried to steal this from my closet. ordering her one for christmas now so she stops touching mine 😤",
+          img: 31,
+        },
+        {
+          name: "Layla H.",
+          platform: "instagram",
+          rating: 5,
+          text: "the side pockets are actually functional! can fit my phone and keys comfortably. form AND function queen 👑",
+          img: 32,
+        },
+        {
+          name: "Willow P.",
+          platform: "facebook",
+          rating: 5,
+          text: "Third coat I've ordered from here and they keep getting better. This one is my absolute favorite!",
+          img: 33,
+        },
+        {
+          name: "Ivy S.",
+          platform: "trustpilot",
+          rating: 5,
+          text: "Excellent customer service too - had a question about sizing and they responded within an hour. The coat itself? Perfect.",
+          img: 34,
+        },
+      ];
+
+      // Featured Reviews (5 premium)
+      const featuredReviews = [
+        {
+          name: "Emma L.",
+          platform: "instagram",
+          platformColor: "#E4405F",
+          text: "I was SO nervous ordering a coat online - sizing is always a gamble for my curves. But I trusted the size guide and went with a medium. Now I'm OBSESSED! It fits like it was made for my body. The fur collar is buttery soft and everyone at my holiday party thought I spent hundreds. If you're on the fence, just ORDER IT!",
+          helpful: 127,
+        },
+        {
+          name: "Sophia R.",
+          platform: "tiktok",
+          platformColor: "#000",
+          text: "okay so i almost didn't buy this bc $59 for a fur coat?? seemed too good. my mom literally asked if i stole it from a boutique bc it looks SO expensive. the cashmere blend is everything and the detachable cuffs are genius for indoor events. already planned 4 outfits around it. this is THE coat bestie trust me",
+          helpful: 94,
+        },
+        {
+          name: "Madison K.",
+          platform: "facebook",
+          platformColor: "#1877F2",
+          text: "I'll be honest - I was worried about the fur looking cheap. But when I opened the box my jaw DROPPED. The fur is so fluffy and realistic, the coat has real weight to it, and the hidden buttons give it such a clean silhouette. Wore it to my boyfriend's company party and got stopped 6 times asking where I got it.",
+          helpful: 83,
+        },
+        {
+          name: "Olivia T.",
+          platform: "google",
+          platformColor: "#4285F4",
+          text: "Coming from someone who's spent $$$ on designer coats - this holds its own. The cashmere-wool blend is soft but structured, the fur collar keeps my neck warm without feeling bulky, and the 70cm length is perfect over dresses. I sized down based on reviews and it's chef's kiss. Luxury unboxing too!",
+          helpful: 71,
+        },
+        {
+          name: "Ava M.",
+          platform: "trustpilot",
+          platformColor: "#00b67a",
+          text: "I live in Chicago - if a coat can't handle real winter, it's useless. This coat is actually WARM. The cashmere blend traps heat perfectly and the fur collar is like wearing a cloud. Plus it looks expensive AF. My coworker has the same style from a high-end brand that cost $400+ and honestly? Mine looks better.",
+          helpful: 68,
+        },
+      ];
+
+      // Platform Icons
+      const platformIcons = {
+        tiktok:
+          '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 015.2-1.74V12a6.33 6.33 0 10-1.55 4.18v-3.52a2.89 2.89 0 003.77 2.76V2.54h3.45v.1a4.83 4.83 0 003.55 4.05z"/></svg>',
+        instagram:
+          '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1.5"/></svg>',
+        facebook:
+          '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>',
+        google:
+          '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 11v2.5h4.5c-.2 1-.8 1.8-1.6 2.3v2h2.6c1.5-1.4 2.4-3.4 2.4-5.7 0-.5 0-1-.1-1.5H12z"/><path d="M12 22c2.7 0 5-1 6.6-2.6l-2.6-2c-.9.6-2 1-3.5 1-2.7 0-5-1.8-5.8-4.3H3.5v2.1c1.5 3.3 4.8 5.8 8.5 5.8z"/></svg>',
+        trustpilot:
+          '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>',
+      };
+
+      // State
+      let selectedSize = "M";
+      let countdown = 2 * 60 * 60 + 47 * 60 + 33; // 2h 47m 33s
+
+      // Initialize
+      document.addEventListener("DOMContentLoaded", () => {
+        loadThumbnails();
+        loadFeaturedReviews();
+        loadTestimonials();
+        startCountdown();
+        startViewerCount();
+        initScrollReveal();
+        initStickyCTA();
+        setTimeout(sellOutXS, 15000);
+      });
+
+      // Load Thumbnails
+      function loadThumbnails() {
+        const thumbs = document.getElementById("thumbs");
+        productImages.forEach((src, i) => {
+          const img = document.createElement("img");
+          img.src = `./images/product/${src}`;
+          img.alt = `View ${i + 1}`;
+          img.loading = "lazy";
+          if (i === 0) img.classList.add("active");
+          img.onclick = () => switchImage(src, img);
+          thumbs.appendChild(img);
+        });
+      }
+
+      // Switch Main Image
+      function switchImage(src, el) {
+        const hero = document.getElementById("heroImage");
+        hero.style.opacity = "0";
+        hero.style.transform = "scale(0.98)";
+        setTimeout(() => {
+          hero.src = `./images/product/${src}`;
+          hero.style.opacity = "1";
+          hero.style.transform = "scale(1)";
+        }, 200);
+        document
+          .querySelectorAll("#thumbs img")
+          .forEach((t) => t.classList.remove("active"));
+        el.classList.add("active");
+      }
+
+      // Size Selector
+      function selectSize(el, size) {
+        selectedSize = size;
+        document
+          .querySelectorAll(".size-btn")
+          .forEach((b) => b.classList.remove("selected"));
+        el.classList.add("selected");
+      }
+
+      // XS Sells Out
+      function sellOutXS() {
+        const xs = document.querySelector(".size-btn");
+        xs.disabled = true;
+        xs.innerHTML = 'XS<span class="soldout-label">Sold Out</span>';
+        xs.classList.remove("selected");
+        if (selectedSize === "XS") {
+          selectedSize = "S";
+          document.querySelectorAll(".size-btn")[1].classList.add("selected");
+        }
+        const notif = document.getElementById("soldoutNotification");
+        notif.classList.add("show");
+        setTimeout(() => notif.classList.remove("show"), 4000);
+      }
+
+      // Countdown Timer
+      function startCountdown() {
+        setInterval(() => {
+          if (countdown > 0) countdown--;
+          const h = Math.floor(countdown / 3600);
+          const m = Math.floor((countdown % 3600) / 60);
+          const s = countdown % 60;
+          document.getElementById("hours").textContent = String(h).padStart(
+            2,
+            "0",
+          );
+          document.getElementById("minutes").textContent = String(m).padStart(
+            2,
+            "0",
+          );
+          document.getElementById("seconds").textContent = String(s).padStart(
+            2,
+            "0",
+          );
+        }, 1000);
+      }
+
+      // Viewer Count
+      function startViewerCount() {
+        const el = document.getElementById("viewerCount");
+        setInterval(() => {
+          const change = Math.random() > 0.5 ? 1 : -1;
+          let val = parseInt(el.textContent) + change;
+          if (val < 30) val = 30;
+          if (val > 65) val = 65;
+          el.textContent = val;
+        }, 5000);
+      }
+
+      // Load Featured Reviews
+      function loadFeaturedReviews() {
+        const container = document.getElementById("featuredReviews");
+        container.innerHTML = featuredReviews
+          .map(
+            (r) => `
+    <div class="featured-card">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+        <div style="color:${r.platformColor}">${platformIcons[r.platform]}</div>
+        <div>
+          <div style="font-weight:700;font-size:15px">${r.name}</div>
+          <div style="font-size:12px;color:var(--text-light)">${r.platform} • Verified Purchase</div>
+        </div>
+        <div style="margin-left:auto;color:var(--accent)">★★★★★</div>
+      </div>
+      <p style="font-size:14px;line-height:1.7;color:var(--text);margin-bottom:16px">"${r.text}"</p>
+      <div style="font-size:12px;color:var(--text-lighter)">${r.helpful} people found this helpful</div>
+    </div>
+  `,
+          )
+          .join("");
+      }
+
+      // Load Testimonials
+      function loadTestimonials() {
+        const container = document.getElementById("testimonialsGrid");
+        container.innerHTML = testimonials
+          .map(
+            (t) => `
+    <div class="testimonial-card reveal">
+      <p class="testimonial-text">"${t.text}"</p>
+      <img src="./images/testimonials/${testimonialImages[t.img]}" class="testimonial-image" loading="lazy" alt="Customer photo">
+      <div class="testimonial-footer">
+        <div>
+          <div class="testimonial-name">${t.name}</div>
+          <div class="testimonial-platform" style="color:${t.platform === "tiktok" ? "#000" : t.platform === "instagram" ? "#E4405F" : t.platform === "facebook" ? "#1877F2" : t.platform === "google" ? "#4285F4" : "#00b67a"}">
+            ${platformIcons[t.platform]} ${t.platform}
+          </div>
+        </div>
+        <div class="testimonial-stars">${"★".repeat(t.rating)}</div>
+      </div>
+    </div>
+  `,
+          )
+          .join("");
+
+        // Re-observe new elements
+        document
+          .querySelectorAll(".reveal:not(.visible)")
+          .forEach((el) => revealObserver.observe(el));
+      }
+
+      // Scroll Reveal
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry, i) => {
+            if (entry.isIntersecting) {
+              setTimeout(() => entry.target.classList.add("visible"), i * 50);
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -50px 0px" },
+      );
+
+      function initScrollReveal() {
+        document
+          .querySelectorAll(".reveal")
+          .forEach((el) => revealObserver.observe(el));
+      }
+
+      // Sticky CTA
+      function initStickyCTA() {
+        const sticky = document.getElementById("stickyCta");
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 200 && window.innerWidth <= 768) {
+            sticky.classList.add("visible");
+          } else {
+            sticky.classList.remove("visible");
+          }
+        });
+      }
+
+      // Order Handling
+      function handleAddToCart(type) {
+        if (type === "preorder") {
+          document.getElementById("orderBumpPopup").classList.add("active");
+          document.body.style.overflow = "hidden";
+        } else {
+          processOrder(59);
+        }
+      }
+
+      function closeOrderBumpPopup() {
+        document.getElementById("orderBumpPopup").classList.remove("active");
+        document.body.style.overflow = "";
+      }
+
+      function acceptOrderBump() {
+        closeOrderBumpPopup();
+        processOrder(29);
+      }
+
+      function declineOrderBump() {
+        closeOrderBumpPopup();
+        processOrder(19);
+      }
+
+      async function processOrder(amount) {
+        const overlay = document.getElementById("exitTransition");
+        overlay.classList.add("active");
+
+        try {
+          const res = await fetch("/.netlify/functions/buy-now", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ amountUSD: amount, size: selectedSize }),
+          });
+          const data = await res.json();
+          const url = data.exchangeUrl || data.url;
+          if (url) {
+            setTimeout(() => (window.location.href = url), 600);
+          } else {
+            overlay.classList.remove("active");
+            alert("Error processing order. Please try again.");
+          }
+        } catch (e) {
+          overlay.classList.remove("active");
+          alert("Network error. Please check your connection.");
+        }
+      }
+    </script>
+  </body>
+</html>
